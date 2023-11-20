@@ -23,18 +23,18 @@ http://www.templatemo.com/tm-509-hydro
 </head>
 <body>
 
-     <style>
-          .to-project {
-              border-radius: 30px !important;
-              background-color: #009879 !important;
-              color: white !important;
-          }
-  
-          .to-project:hover {
-              background-color: rgb(3, 100, 80) !important;
-              color: white !important;
-          }
-      </style>
+    <style>
+        .to-project {
+            border-radius: 30px !important;
+            background-color: #009879;
+            color: white !important;
+        }
+
+        .to-project:hover {
+            background-color: rgb(3, 100, 80) !important;
+            color: white !important;
+        }
+    </style>
 
      <!-- PRE LOADER -->
      <section class="preloader">
@@ -42,7 +42,6 @@ http://www.templatemo.com/tm-509-hydro
                <span class="spinner-rotate"></span>
           </div>
      </section>
-
 
      <!-- MENU -->
      <section class="navbar custom-navbar navbar-fixed-top top-nav-collapse" role="navigation">
@@ -56,13 +55,13 @@ http://www.templatemo.com/tm-509-hydro
                     </button>
 
                     <!-- lOGO TEXT HERE -->
-                    <a href="index.html" class="navbar-brand">Group 13</a>
+                    <a href="index.html" class="navbar-brand">Hydro</a>
                </div>
 
                <!-- MENU LINKS -->
                <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-nav-first">
-                         <li><a href="./index.html" class="smoothScroll">Home</a></li>
+                         <li><a href="./index.html" class="smoothScroll">Group 13</a></li>
                          <li><a href="./about.html" class="smoothScroll">About</a></li>
                          <li><a href="./group-diary.html" class="smoothScroll">Group Diary</a></li>
                          <li><a href="./project.html" class="smoothScroll">Project</a></li>
@@ -74,35 +73,73 @@ http://www.templatemo.com/tm-509-hydro
           </div>
      </section>
 
-
-     <!-- HOME -->
-     <section id="home" data-stellar-background-ratio="0.5">
-          <div class="overlay"></div>
+     <!-- CONTACT -->
+     <section id="contact" data-stellar-background-ratio="0.5">
           <div class="container">
                <div class="row">
 
-                    <div class="col-md-6 col-sm-12">
-                         <div class="home-info">
-                              <h1>We make beautiful websites for all people.</h1>
-                              <a href="#about" class="btn section-btn smoothScroll">Start a project</a>
-                              <span>
-                                   CALL US (+66) 010-020-0340
-                                   <small>For any inquiry</small>
-                              </span>
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title">
+                              <h2>Contact us</h2>
+                              <span class="line-bar">...</span>
                          </div>
                     </div>
 
-                    <div class="col-md-6 col-sm-12">
-                         <div class="home-video">
-                              <div class="embed-responsive embed-responsive-16by9">
-                                   <iframe src="https://www.youtube.com/embed/AqcjdkPMPJA" frameborder="0" allowfullscreen></iframe>
+                    <div class="col-md-8 col-sm-8">
+                        
+                         <!-- CONTACT FORM HERE -->
+                         <form id="contact-form" role="form" action="#" method="post">
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="text" class="form-control" placeholder="Full Name" id="cf-name" name="cf-name" required="">
                               </div>
+
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="email" class="form-control" placeholder="Your Email" id="cf-email" name="cf-email" required="">
+                              </div>
+
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="tel" class="form-control" placeholder="Your Phone" id="cf-number" name="cf-number" required="">
+                              </div>
+
+                              <div class="col-md-6 col-sm-6">
+                                   <select class="form-control" id="cf-budgets" name="cf-budgets">
+                                        <option>Budget Level</option>
+                                        <option>$500 to $1,000</option>
+                                        <option>$1,000 to $2,200</option>
+                                        <option>$2,200 to $4,500</option>
+                                        <option>$4,500 to $7,500</option>
+                                        <option>$7,500 to $12,000</option>
+                                        <option>$12,000 or more</option>
+                                   </select>
+                              </div>
+
+                              <div class="col-md-12 col-sm-12">
+                                   <textarea class="form-control" rows="6" placeholder="Your requirements" id="cf-message" name="cf-message" required=""></textarea>
+                              </div>
+
+                              <div class="col-md-4 col-sm-12">
+                                   <input type="submit" class="form-control" name="submit" value="Send Message">
+                              </div>
+
+                         </form>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="google-map">
+	<!-- How to change your own map point
+            1. Go to Google Maps
+            2. Click on your location point
+            3. Click "Share" and choose "Embed map" tab
+            4. Copy only URL and paste it within the src="" field below
+	-->
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" allowfullscreen></iframe>
                          </div>
                     </div>
-                    
+
                </div>
           </div>
      </section>
+
 
      <!-- FOOTER -->
      <footer data-stellar-background-ratio="0.5">
